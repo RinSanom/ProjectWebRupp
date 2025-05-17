@@ -59,58 +59,6 @@ export default function AboutMe() {
               </div>
             </div>
           </div>
-          {/* Skills Section */}
-          <section className="mb-16">
-            <h2 className="text-2xl font-bold mb-6 border-b pb-2">Skills</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div>
-                <h3 className="text-xl font-semibold mb-4">Frontend</h3>
-                <div className="flex flex-wrap gap-2">
-                  {[
-                    "React",
-                    "Next.js",
-                    "TypeScript",
-                    "Tailwind CSS",
-                    "JavaScript",
-                    "HTML/CSS",
-                    "Redux",
-                  ].map((skill) => (
-                    <span
-                      key={skill}
-                      className="px-3 py-1 bg-gray-200  rounded-full text-sm">
-                      {skill}
-                    </span>
-                  ))}
-                </div>
-              </div>
-
-              <div>
-                <h3 className="text-xl font-semibold mb-4">Backend</h3>
-                <div className="flex flex-wrap gap-2">
-                  {[
-                    "Java",
-                    "Spring Boot",
-                    "Node.js",
-                    "PostgreSQL",
-                    "Python",
-                    "Laravel",
-                    "Docker",
-                    "Linux Server ",
-                    "Linux Server ",
-                    "Deployment",
-                  ].map((skill) => (
-                    <span
-                      key={skill}
-                      className="px-3 py-1 bg-gray-200  rounded-full text-sm">
-                      {skill}
-                    </span>
-                  ))}
-                </div>
-              </div>
-            </div>
-          </section>
-
-          {/* Experience Section */}
           <section className="mb-16">
             <h2 className="text-2xl font-bold mb-6 border-b pb-2">
               About This Project

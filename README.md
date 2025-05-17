@@ -9,7 +9,8 @@ A **full-stack web application** that allows users to manage employee records ef
 
 ## 📸 Preview
 
-> *(You can add screenshots or screen recordings here later)*
+![image](https://github.com/user-attachments/assets/86fac005-6f44-40c5-97ac-f3e382857a87)
+
 
 ---
 
